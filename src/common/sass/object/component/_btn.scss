@@ -1,0 +1,9 @@
+@use 'src/common/sass/foundation/variable' as var;
+@use 'src/common/sass/foundation/mixin/mixin' as mixin;
+
+.c-btn{
+  background-color: transparent;
+  border: none;
+  color: map-get($map: var.$color, $key:baseBlack );
+  @include mixin.fs(15px,30px);
+}

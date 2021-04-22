@@ -1,0 +1,23 @@
+@use 'src/common/sass/foundation/variable' as var;
+
+html{
+  font-size: var.$baseFontSize;
+  line-height: var.$baseLineHeight;
+}
+@media screen and(max-width:768px){
+  html{
+    font-size: var.$spBaseFontSize;
+    line-height: var.$spBaseLineHeight;
+  }
+}
+
+body{
+  font: inherit;
+  font-family: var.$font_family;
+  color: map-get($map: var.$color, $key:baseBlack );
+  overflow-x: hidden;
+}
+
+.p-div{
+  display: flex;
+}

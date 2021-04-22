@@ -1,0 +1,12 @@
+@use 'src/common/sass/foundation/variable' as var;
+
+
+@mixin fs($fs,$lh,$init:var.$baseFontSize) {
+  font-size: (ceil($fs / $init * 100))/100 + rem;
+  line-height: (ceil($lh / $fs * 100))/100;
+}
+
+@mixin fsSp($fs,$lh,$init:var.$spBaseFontSize) {
+  font-size: (ceil($fs / $init * 100))/100 + rem;
+  line-height: (ceil($lh / $fs * 100))/100;
+}

@@ -1,0 +1,50 @@
+/* ***************************
+ Reset Extenstion
+*************************** */
+* {
+  box-sizing: border-box;
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+main {
+  display: block;
+}
+
+template,
+[hidden] {
+  display: none !important;
+}
+[disabled] {
+  cursor: not-allowed !important;
+}
+[tabindex="-1"]:focus:not(:focus-visible) {
+  outline: 0 !important;
+}
+
+a,
+area,
+button,
+[role="button"],
+input:not([type="range"]),
+label,
+select,
+summary,
+textarea {
+  touch-action: manipulation;
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: inherit;
+  &:hover,
+  &:focus {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  &:focus {
+    outline: 0;
+  }
+}
