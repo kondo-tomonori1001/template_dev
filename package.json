@@ -22,16 +22,11 @@
     "gulp-sourcemaps": "^3.0.0",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.2",
-    "vue-loader": "^15.9.6",
-    "vue-template-compiler": "^2.6.12",
     "webpack": "^5.33.2",
     "webpack-merge": "^5.7.3",
-    "webpack-stream": "^6.1.2",
-    "webpack-stream-watch": "^3.2.1"
+    "webpack-stream": "^6.1.2"
   },
-  "dependencies": {
-    "vue": "^2.6.12"
-  },
+  "dependencies": {},
   "browserslist": [
     "last 2 versions",
     "ie >= 11",
