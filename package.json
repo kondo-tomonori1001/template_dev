@@ -26,7 +26,9 @@
     "webpack-merge": "^5.7.3",
     "webpack-stream": "^6.1.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
   "browserslist": [
     "last 2 versions",
     "ie >= 11",
